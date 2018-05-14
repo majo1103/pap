@@ -1,0 +1,15 @@
+This is simple voting app.
+
+To run the backend application please start the server in public directory.
+
+You will probably need to modify the Config file before running the command:
+php -S localhost:8000
+
+After starting the server as described above, you will have REST api
+http://localhost:8000/polls/1
+
+Not yet implemented functionality is marked with //TODO
+
+This version is very limited, as it is not using REST-API frameworks, and every URL had to be matched agains RegEx, in the new version I plan to use Directus for generating API.
+
+Mateusz
